@@ -1,0 +1,98 @@
+header {
+	height: 100px;
+	background-color:  #347ab4;
+	display: flex;
+	align-items: center;
+	margin:auto;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	background-color: #347ab4;
+}
+form {
+  	float: right;
+  	align-items: center;
+}
+
+button {
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+
+.logo-container {
+	display:flex;
+}
+
+.logo-container img {
+	width: 30px;
+	height: 30px;
+}
+
+.int, .me {
+	color: #ffffff ;
+}
+
+.int {
+	float: right;
+}
+.me {
+	float: left;
+}
+.nav-link{
+	color:#ffffff ;
+	text-decoration: none;
+}
+.nav-links {
+	justify-content: center;
+	list-style: none;
+	display: flex;
+}
+nav {
+	flex:2;
+}
+
+.about {
+	text-align: center;
+	vertical-align: center;
+	padding: 200px 0px;
+}
+
+.contact {
+	text-align: center;
+	padding: 200px 0px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Arial', sans-serif;
+	float:left;
+}
+
+.description {
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Arial', sans-serif;
+}
+
+.card img {
+	height: 60vh;
+}
+
+.container {
+	display: grid;
+}
+
